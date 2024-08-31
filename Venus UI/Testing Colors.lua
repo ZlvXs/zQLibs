@@ -66,10 +66,10 @@ local themes = {
         Slider = Color3.fromRGB(225, 225, 225)
     },
     Violet = {
-        TextColor = Color3.fromRGB(255,0,0),
-        MainFrame = Color3.fromRGB(0,0,255),
-        TabBackground = Color3.fromRGB(0,255,0),
-        Tab = Color3.fromRGB(255,255,0),
+        TextColor = Color3.fromRGB(255,255,255),
+        MainFrame = Color3.fromRGB(85, 57, 139),
+        TabBackground = Color3.fromRGB(97, 62, 167),
+        Tab = Color3.fromRGB(160, 140, 180),
         EnabledText = Color3.fromRGB(0,255,255),
         DisabledText = Color3.fromRGB(255,0,255),
         TabToggleEnabled = Color3.fromRGB(128,128,0),
