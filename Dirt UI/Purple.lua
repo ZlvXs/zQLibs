@@ -18,7 +18,7 @@ local Usp = game:GetService("UserInputService")
 local visible = true
 local Usable = true
 if _G.HideKeybind == nil then
-    _G.HideKeybind = Enum.KeyCode.F6
+    _G.HideKeybind = Enum.KeyCode.F1
 end
 Usp.InputBegan:Connect(function(key)
     if key.KeyCode == _G.HideKeybind and Usable then
