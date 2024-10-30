@@ -1,3 +1,4 @@
+-- d
 local library = { 
 	flags = { }, 
 	items = { } 
@@ -19,7 +20,7 @@ local camera = game.Workspace.CurrentCamera
 
 library.theme = {
     fontsize = 15,
-    titlesize = 18,
+    titlesize = 17,
     font = Enum.Font.Code,
     background = "rbxassetid://5553946656",
     tilesize = 90,
@@ -34,7 +35,7 @@ library.theme = {
     outlinecolor2 = Color3.fromRGB(0, 0, 0),
     sectorcolor = Color3.fromRGB(30, 30, 30),
     toptextcolor = Color3.fromRGB(255,255,255),
-    topheight = 48,
+    topheight = 50,
     topcolor = Color3.fromRGB(30, 30, 30),
     topcolor2 = Color3.fromRGB(30, 30, 30),
     buttoncolor = Color3.fromRGB(49, 49, 49),
