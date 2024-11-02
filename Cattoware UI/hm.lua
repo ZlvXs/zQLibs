@@ -26,20 +26,20 @@ library.theme = {
     tilesize = 90,
     cursor = false,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
-    backgroundcolor = Color3.fromRGB(10, 10, 10),
+    backgroundcolor = Color3.fromRGB(7,7,7),
     tabstextcolor = Color3.fromRGB(255, 255, 255),
-    bordercolor = Color3.fromRGB(60, 60, 60),
+    bordercolor = Color3.fromRGB(0, 0, 0),
     accentcolor = Color3.fromRGB(177, 136, 255),
     accentcolor2 = Color3.fromRGB(177, 136, 255),
-    outlinecolor = Color3.fromRGB(60, 60, 60),
+    outlinecolor = Color3.fromRGB(0,0,0),
     outlinecolor2 = Color3.fromRGB(0, 0, 0),
-    sectorcolor = Color3.fromRGB(30, 30, 30),
+    sectorcolor = Color3.fromRGB(0, 0, 0),
     toptextcolor = Color3.fromRGB(255,255,255),
     topheight = 50,
-    topcolor = Color3.fromRGB(30, 30, 30),
-    topcolor2 = Color3.fromRGB(30, 30, 30),
-    buttoncolor = Color3.fromRGB(49, 49, 49),
-    buttoncolor2 = Color3.fromRGB(39, 39, 39),
+    topcolor = Color3.fromRGB(0, 0, 0),
+    topcolor2 = Color3.fromRGB(0,0,0),
+    buttoncolor = Color3.fromRGB(0,0,0),
+    buttoncolor2 = Color3.fromRGB(0,0,0),
     itemscolor = Color3.fromRGB(255, 255, 255),
     itemscolor2 = Color3.fromRGB(255, 255, 255)
 }
@@ -334,7 +334,7 @@ function library:CreateWindow(name, size, hidebutton)
     window.TopBar.Name = "top"
     window.TopBar.Size = UDim2.fromOffset(window.size.X.Offset, window.theme.topheight)
     window.TopBar.BorderSizePixel = 0
-    window.TopBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    window.TopBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     window.TopBar.InputBegan:Connect(dragstart)
     window.TopBar.InputChanged:Connect(dragend)
     updateevent.Event:Connect(function(theme)
